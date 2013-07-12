@@ -15,7 +15,12 @@ Hi,我是Suzie,目前在杭州某互联网公司打杂。
 
 
 
+
 ### Doing
+
+0. [开源教学频道](http://osteach.github.com/)
+
+	一个介绍开源文化的网站，目前有写成纸质书的倾向...欢迎贡献
 
 1. [Diaoscovery探索频道](http://suziewong.github.io/diaoscovery)
     
