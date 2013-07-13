@@ -5,7 +5,7 @@ tagline: Life is an attitude.
 ---
 {% include JB/setup %}
 
-Hi,我是Suzie,目前在杭州某互联网公司打杂。
+Hi,我是Suzie,一个准Web开发工程师。
 
 [主页](http://www.imsuzie.com)
 
@@ -31,7 +31,6 @@ Hi,我是Suzie,目前在杭州某互联网公司打杂。
 	本来是仿Hacker News写的一个站点
 
 
-### Articles
 
 <ul class="posts">
   {% for post in site.posts %}
