@@ -5,16 +5,33 @@ tagline: Life is an attitude.
 ---
 {% include JB/setup %}
 
-Hi,我是Suzie,一个准Web开发工程师。
+Hi,我是郑洋飞(Suzie),一个准Web开发工程师,目前在阿里巴巴实习。
 
-[主页](http://www.imsuzie.com)
-
-[博客](http://blog.imsuzie.com)
-
-[作品](http://work.imsuzie.com)
-
-
-
+想要了解某个人不仅仅看简历，更要看他的一言一行。
+<ol>
+<li>
+	<a href='http://www.imsuzie.com' target='_blank'>主页</a>
+	<p>从最开始已经改版了3次了,Metro风格不仅仅是一套CSS样式,而是一种信息组织方式。</p>
+</li>
+<li>
+	<a href='http://blog.imsuzie.com' target='_blank'>博客</a>
+	<p>
+		编程知识，个人感悟。
+	</p>
+</li>
+<li>
+	<a href='http://work.imsuzie.com' target='_blank'>作品</a>
+	<p>
+		很多很多的项目，有的完成，有的正在完成，我相信付出努力一定会有回报。
+	</p>
+</li>
+<li>
+	<a href='word.html' target='_blank'>言语</a>
+	<p>
+		这里都是我喜欢的言语，所以我要收集起来，送给和我有同样想法的人。
+	</p>
+</li>
+</ol>
 
 ### Doing
 
