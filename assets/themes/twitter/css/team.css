@@ -1,0 +1,33 @@
+body {
+	background-image:url("/images/wishbg.jpg");
+	background-repeat:no-repeat;
+	font-family: "Helvetica Neue",Helvetica,"Microsoft Yahei",Arial,sans-serif;
+	color:#fff;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	padding: 40px;
+	background:rgba(0,0,0,.8);
+	margin-top: 50px;
+
+}
+
+h1 {
+	font-size: 35px;
+}
+p {
+	color:rgba(255,255,255,.6)
+}
+li {
+	color:rgba(255,255,255,.6)
+}
+
+#girlsleft {
+	margin-left: 180px;
+
+}
+.girlsimg{
+	float: left;
+	width: 150px;
+}
