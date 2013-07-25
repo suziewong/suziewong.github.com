@@ -54,5 +54,3 @@ Hi,我是郑洋飞(Suzie),一个准Web开发工程师,目前在阿里巴巴实�
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-
