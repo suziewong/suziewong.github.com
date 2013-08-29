@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>酥西黄 - I'm suzie.com</title>
+    	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="酥西黄,编程，技术，分享 - http://www.imsuize.com "/>
+		<meta name="keyword" content="排序,正则表达式,程序员,算法,软件开发,AJAX,Algorithm,Android,Bash,book,C++,Code Review,Coding,CSS,Database,Debug,ebook,Erlang,Game,Go,Google,HTML,IE,Java,Javascript,jQuery,Linus Torvalds,Linux,Mac,MySQL,Oracle,OS,Perl,PHP,Programmer,programming,language,Python,Ruby,SQL,Ubuntu,UI,Unix,vim,Web,Windows"/>
+	   <link rel="icon" href="favicon.ico" type="image/x-icon">
+	   <link rel="stylesheet" type="text/css" href="www/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="www/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="www/css/prettify.css">
+        <link rel="stylesheet" type="text/css" href="www/css/metro.css">
+        <link rel="stylesheet" type="text/css" href="www/css/site.css">
+    
+  <script type="text/javascript" src="www/js/jquery-1.7.2.min.js"></script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        body {
+            background: transparent url(www/img/bgmetro1.png);
+            overflow-y:hidden;
+            overflow:hidden;
+        }
+		.metro {
+            width: 940px;
+            overflow: hidden;
+        }
+
+		.metro-section {
+            width: 810px !important;
+        }
+		#demo {
+
+			position: relative;
+
+		}	
+		 #left {
+		
+			width:1080px;
+            height:782px;
+
+        }
+
+		#right {
+		
+			float:left;
+		margin-top:200px;
+		margin-bottom:30px;
+			width:810px;
+            height:472px;
+		}
+		<!-- 解决IE兼容性 -->
+		.metro .metro-sections .metro-section .tile.tile-double-vertical .tile-icon-large {margin-left:0px;}
+	</style>
+</head>
+<body>
+<!--千万别看偶写的代码哈！-->
+<div class="container" id="demo">
+        <div class="metro" id="left">
+            <div class="metro-sections">
+                <div class="metro-section" id="section1">
+                    <a data-next="#section2" data-prior="#section1" href="#" class="next-section"></a>
+                    <div class="tile tile-double tile-double-vertical bg-color-darken ">
+						 <div style="margin-left:38px;margin-top:10px">
+                            <img src="www/img/11.jpg" width="260px">
+                        </div>
+                        <span class="tile-label">我</span>
+					</div>		
+                    <div class="tile tile-double-vertical bg-color-yellow tile-multi-content" onclick="location.href='http://blog.imsuzie.com/%E5%85%B3%E4%BA%8E%E6%88%91'">
+                        <div class="tile-content-main" style="height:310px" >
+						<div class="tile-icon-large">
+                            <img src="www/img/Personal.png">
+                        </div>
+                        <span class="tile-label">Resume  &nbsp;&nbsp;&nbsp;&nbsp;</span>
+						</div>
+		               <div class="tile-content-sub " style="background-color: rgb(255, 69, 0);">
+                             浙江工业大学，计算机系大三学生
+                       </div>
+                    </div>
+                    <div class="tile bg-color-purple" onclick="location.href='https://plus.google.com/u/0/111277270850467895925/posts'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/Google+alt2.png">
+                        </div>
+                        <span class="tile-label">Google+</span>
+                    </div>
+                    <div class="tile bg-color-pink" onclick="location.href='https://github.com/suziewong/'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/github.png" style="width: 40px;height: 40px;margin-top: 30px;">
+                        </div>
+                        <span class="tile-label">Github</span>
+                    </div>
+                    <div class="tile tile-double tile-multi-content" onclick="location.href='http://blog.imsuzie.com'">         
+                        <div class="" style="margin-top: 0px; " >
+                            <div style="padding:10px 10px 10px 10px;">
+                                <img href="http://blog.imsuzie.com" src="www/img/Wordpressalt.png" style="height: 96px; margin-right: 20px" class="place-left">
+                                <div style="margin-left: 115px; margin-top: 10px">
+									<p style="font-size: 36px; margin-top: 0px; " onclick="location.href='http://blog.imsuzie.com'">技术博客</p></a>
+                                    <p style="font-size: 18px; margin-top: 0px;">享受编程带来的快乐</p>
+                                    <p style="font-size: 12px; margin-top: 5px">技术，分享，我的五彩生活</p>
+                                </div>
+                            </div>
+                            <span class="tile-label" style="font-color:black;"><a href="http://blog.imsuzie.com/" alt="点此进入">博客</a></span>
+                        </div>
+                        <div class="tile-content-sub bg-color-blueDark" style="opacity: 0.3;filter: alpha(opacity=30); text-align: right;margin-top:-5px;">
+                                             Linux,PHP,MySQL,JavaScript
+                        </div>
+                        
+                    </div>
+					<div style="float:left;">
+                    <div class="tile bg-color-orange tile-multi-content" onclick="location.href='mailto:monkeysuzie@gmail.com'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/mail-128.png" alt="monkeysuzie[at]gmail.com">
+                        </div>
+                        <span class="tile-label">Gmail</span>
+                        <span class="tile-counter">10</span>
+                    </div style="width:1000px;">
+                    <div class="tile tile-double bg-color-green" onclick="location.href='https://trello.com/b/fGuT2pO3'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/Calendar.png">
+                        </div>
+                        <span class="tile-label">Calendar&Trello</span>
+                        <span class="tile-counter">GTD</span>
+                    </div>
+                    <div class="tile tile-double" onclick="location.href='http://work.imsuzie.com'" >
+                        <div class="tile-icon-large">
+                            <img src="www/img/Codingapp.png">
+                        </div>
+                        <span class="tile-label">部分作品</span>
+                        <span class="tile-counter"></span>
+                    </div>
+                    </div>
+                </div>
+			    <div id="down-icon"><p class="body-text">更多..</p><img width="55px" src="www/img/Down.png"/></div>
+         </div>
+     </div>
+    <div id="right">
+        <div class="metro" id="left">
+         <div class="metro-sections">
+             <div class="metro-section" id="section1">
+				 <div class="tile bg-color-orange tile-active-right" >
+                        <div class="tile-icon-large">
+                            <img src="www/img/GoogleChrome.png" />
+                        </div>
+                	<span class="tile-label">Google Chrome</span>
+                 </div>
+                <div class="tile bg-color-yellow">
+                    <div class="tile-icon-large">
+                        <img src="www/img/Linux.png" />
+                    </div>
+            	<span class="tile-label">Linux</span>
+                </div>
+
+                <div class="tile bg-color-darken">
+                    <div class="tile-icon-large">
+                        <img src="www/img/Apple.png" />
+                    </div>
+            	<span class="tile-label">苹果爱好者</span>
+                </div>
+                <div class="tile bg-color-blue" onclick="location.href='http://weibo.com/imsuzie'">
+                    <div class="tile-icon-large">
+                        <h1 style="color: #fff !important; margin-top: 10px">微博</h1>
+                    </div>
+            	<span class="tile-label">关注我吧 :)</span>
+                </div>
+			    <div class="tile bg-color-blueDark" onclick="location.href='http://www.zjut.edu.cn/'">
+                    <div class="tile-icon-large">
+                        <h1 style="color: #fff !important; margin-top: 10px">ZJUT</h1>
+                        
+                    </div>
+            	<span class="tile-label">浙江工业大学</span>
+                </div>
+                    <div class="tile tile-double " onclick="location.href='http://www.hz-gdg.org/organizers'">
+                        <img src="www/img/hzgdg.png" style="position: absolute; top: 0px; left: 0px; display: block; width: 310px; height: 155px; opacity: 1; z-index: 0; ">
+                        <span class="tile-counter" style="color:#000">杭州GDG组委</span>
+                    </div>
+
+                    <div class="tile bg-color-pink" onclick="location.href='http://www.facebook.com/profile.php?id=100003510746760'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/Facebook.png" />
+                        </div>
+                	<span class="tile-label">Facebook</span>
+                    </div>
+                    <div class="tile bg-color-green" onclick="location.href='https://twitter.com/suziewong12'">
+                        <div class="tile-icon-large">
+                            <img src="www/img/Twitter.png" />
+                        </div>
+                	<span class="tile-label">Twitter</span>
+                    </div>
+                    <div class="tile bg-color-green" onclick="location.href='http://www.zjut.com/'">
+                        <div class="tile-icon-large">
+                        <h1 style="color: #fff !important; margin-top: 10px">精弘</h1>
+                        </div>
+                	<span class="tile-label">精弘，团队的力量</span>
+                    </div>
+                    <div class="tile bg-color-red">
+                        <div class="tile-icon-large">
+                            <img src="www/img/metro.png" />
+                        </div>
+                	<span class="tile-label">Metro Style</span>
+                    </div>
+                    <div class="tile bg-color-blue">
+                        <div class="tile-icon-large">
+                            <img src="www/img/desktop.png" />
+                        </div>
+                	<span class="tile-label">我的装备</span>
+                    </div>
+                    <div class="tile tile-triple bg-color-purple">
+                        <div class="tile-icon-large">
+                            <img src="www/img/photo.png" />
+                        </div>
+                        <span class="tile-label">Photo</span>
+                    </div> 
+                </div>
+			    <div id="up-icon"><p class="body-text">回到首页..</p><img width="35px" src="www/img/Up.png"/></div>
+			</div>
+		</div>
+    </div>
+    <footer class="metro footer">
+        <p class="pull-right"><a href="#">Metro</a></p>
+        <p class="body-text">© 2010-2013 酥西黄</p>
+        <p class="tertiary-info-secondary"></p>
+    </footer>
+</div>
+	<script type="text/javascript">
+            (function($) {
+              $(document).ready(function() {
+               
+                    $('#down-icon').click(function(){
+
+                       
+                        //return;
+                    $('#demo').animate({
+                                      'bottom': 1.2 *  $('#left').height()
+                                  },'slow'
+                              );
+                    });
+                    $('#up-icon').click(function(){
+                        $('#demo').animate({
+                                      'bottom': 0 *  $('#left').height()
+                                  },'slow'
+                              );
+                    });
+
+                });
+            })(jQuery);
+    </script>
+</body>
+</html>
