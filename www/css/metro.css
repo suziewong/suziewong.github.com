@@ -53,7 +53,7 @@ textarea{overflow:auto;vertical-align:top;}
 .bottom-left{position:absolute;bottom:0;left:0;}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
-.metro .metro-sections{height:auto;position:relative;overflow:hidden;width:100%;}.metro .metro-sections .metro-section{float:left;margin-right:75px;height:auto;width:960px;position:relative;-moz-transform:perspective(600px);-webkit-transform:perspective(600px);-ms-transform:perspective(600px);-o-transform:perspective(600px);transform:perspective(600px);}.metro .metro-sections .metro-section .next-section{position:absolute;top:0px;right:-40px;background:url(/img/next.png);height:24px;width:24px;}
+.metro .metro-sections{height:auto;position:relative;overflow:hidden;width:100%;}.metro .metro-sections .metro-section{float:left;margin-right:75px;height:auto;width:960px;position:relative;-moz-transform:perspective(600px);-webkit-transform:perspective(600px);-ms-transform:perspective(600px);-o-transform:perspective(600px);transform:perspective(600px);}.metro .metro-sections .metro-section .next-section{position:absolute;top:0px;right:-40px;height:24px;width:24px;}
 .metro .metro-sections .metro-section .next-section.back{background:url(/img/back.png);}
 .metro .metro-sections .metro-section .tile:hover{outline:3px #225a68 solid !important;}
 .metro .metro-sections .metro-section .tile.tile-active-right{-ms-transform:perspective(600px) rotatey(5deg);-o-transform:perspective(600px) rotatey(5deg);-moz-transform:perspective(600px) rotatey(5deg);-webkit-transform:perspective(600px) rotatey(5deg);transform:perspective(600px) rotatey(5deg);}
