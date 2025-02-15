@@ -1,15 +1,14 @@
-self-introdution
-===========
+# Personal Website
 
-### About me 
+这是一个基于 Metro UI 风格设计的个人主页项目。
 
-I am working 3 years in Alipay.
+## 特性
 
-https://about.me/suziewong
+- 响应式 Metro 风格界面设计
+- 模块化的瓦片(Tile)布局
+- 支持双层展示内容
+- 支持动画效果
+- 兼容主流浏览器
 
-### About My Index Page
 
-Because of my Hard-working in Alipay, my index page has not been upgrade for 3 years. Now 2016.09.16, I will redesign my index page using my free time.
-
-> python -m SimpleHTTPServer 8080
 
